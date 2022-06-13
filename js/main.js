@@ -33,6 +33,7 @@ const getPokemon = async (id) => {
   const res = await fetch(url);
   const pokemon = await res.json();
   createPokemonCard(pokemon);
+  const pokemonResult;
 };
 
 fetchPokemons();
